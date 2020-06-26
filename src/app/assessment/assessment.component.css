@@ -1,0 +1,15 @@
+.card{
+    max-width: 20rem; height: 350px; float:right;
+}
+
+
+
+.card-header{
+   font-size:  10px solid black;
+}
+
+.bullets{
+  display: inline;
+  width: auto;
+  list-style: none;
+}

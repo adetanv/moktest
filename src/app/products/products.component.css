@@ -1,0 +1,31 @@
+.spaced{
+    padding-left : 5px;
+    padding-right: 5px;
+    padding-top : 15px;
+}
+.card {
+ min-width: 300px;
+ min-height: 400px;
+ border-style: none;
+ box-shadow: 5px 5px 10px 10px lightgray;
+}
+#more {display: none;}
+#myBtn{
+    border-style: none;
+    color: lightseagreen;
+}
+
+.demo{
+    border-style: none;
+    padding-top: 30px;
+}
+
+.vl {
+    border-right: 330px solid rgb(0, 168, 146);
+    height: 650px;
+   
+    position: absolute;
+    left:900px;
+    margin-top: -100px
+   
+  }
