@@ -1,11 +1,34 @@
 .logo{
-    width:30%; 
-    height:50px;
+    width:50%;
+    height:50%;
     margin-left: 30px;
     margin-top: 0px;
     margin-bottom: 20px;
 }
 
 .f1{
-    color:white; margin-left: 25px; font-size: 20px;
+    color:white; margin-left: 25px; font-size: 14px;
+    padding-left: 10px;
+    
 }
+.botlist{
+    line-height: 200%;
+}
+.firstFoot{
+    margin : auto;
+    
+}
+
+.fa{
+    color:white;
+    padding-left: 30px;
+    padding-right: 20px;
+    }
+
+    .icons{
+        margin: auto;
+        padding-left: 15px;
+    }
+    .list-unstyled{
+        font-size: 14px;
+    }

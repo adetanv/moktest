@@ -10,7 +10,7 @@ import { ContactusComponent } from './contactus/contactus.component';
 const routes: Routes = [
 
   {
-    path: 'Home',
+    path: 'fcvghbjh',
     component: HomeComponent
   },
 

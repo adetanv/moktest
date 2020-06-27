@@ -66,11 +66,60 @@ padding-top: -30px;
     padding-right : 150px;
     font-family: 'Open Sans', sans-serif;    
     margin-left : 10%;
+    padding-left: 150px;
 }
 
 .assessDetails{
 padding-right :140px;
    
 }
+.logo{
+    width:30%; 
+    height:50px;
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
 
-    
+.f1{
+    color:white; margin-left: 25px; font-size: 14px;
+}
+.botlist{
+    line-height: 200%;
+}
+.firstFoot{
+    font-size: small;
+}
+.wellB{
+    padding:30px;
+    border : white 2px solid;
+    color : white;
+    z-index: 100000;
+    position: absolute;
+    left : 700px;
+    top : 300px;
+    font-size: 30px;
+    padding-right: 60px;
+    padding-left: 60px;
+}    
+.orange{
+    position: absolute;
+    left:15px;
+    top:40px;
+    width:20px;
+    height:20px;
+    background-color: orange;
+    float:left;
+        opacity: 60%;
+}
+
+.green{
+    position: absolute;
+    left:667.5px;
+    top:267.5px;
+    width:65px;
+    height:65px;
+    background-color: lightseagreen;
+    float: left;
+    opacity:55%;
+}

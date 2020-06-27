@@ -8,6 +8,7 @@
  min-height: 400px;
  border-style: none;
  box-shadow: 5px 5px 10px 10px lightgray;
+ 
 }
 #more {display: none;}
 #myBtn{
@@ -17,15 +18,36 @@
 
 .demo{
     border-style: none;
-    padding-top: 30px;
+    /* padding-top: 30px; */
+}
+.icons{
+    color: white;
+    letter-spacing: 3px;
 }
 
 .vl {
     border-right: 330px solid rgb(0, 168, 146);
     height: 650px;
-   
     position: absolute;
-    left:900px;
-    margin-top: -100px
+    left:910px;
+    margin-top: -96px
    
   }
+
+.orangeImg{
+    min-width: 1366px;
+}  
+.imageOver{
+    background-image: url('/assets/images/imagefororange.png');
+    font-size: 24px;
+    color: white;
+    height:300px;
+    width:82%;
+    background-repeat: no-repeat;
+    
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;   
+}
+.text{
+    padding-top: 8%;
+}
