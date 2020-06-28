@@ -15,10 +15,16 @@
     border-style: none;
     color: lightseagreen;
 }
+.greenb{
+    padding-bottom: 100px;
+}
 
 .demo{
     border-style: none;
     /* padding-top: 30px; */
+    background-color: lightseagreen;
+   width:160px;
+   padding:10px;
 }
 .icons{
     color: white;
@@ -29,13 +35,15 @@
     border-right: 330px solid rgb(0, 168, 146);
     height: 650px;
     position: absolute;
-    left:910px;
-    margin-top: -96px
+    left: 63.2%;
+    margin-top: -96px;
+    float: right;
+    
    
   }
 
 .orangeImg{
-    min-width: 1366px;
+    max-width: 1125px;
 }  
 .imageOver{
     background-image: url('/assets/images/imagefororange.png');
@@ -50,4 +58,9 @@
 }
 .text{
     padding-top: 8%;
+}
+.backgreen{
+    
+    height: auto;
+    background-image: url('/assets/images/backGreen.png');
 }

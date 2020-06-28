@@ -1,20 +1,14 @@
 <div class="container" style="margin-bottom: 0px;">
-  <div class="demo1 jumbotron" style="background-image: url(assets/images/image1.jpg);">
-    
+  <div class="demo1 " style="background-image: url(assets/images/image1.jpg);">
+    <div class="container navbar-top">
     <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand" href="#">
-        <div class="green"></div>
-        <div class="wellB">WELL BEING
-          <div class="orange">
-            <!-- <div class="green"></div> -->
-          </div>
-          
-        </div>
+        
         <img src="assets/images/image3.png" style="width:100px; height:50px; margin-top:5px;">
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      <button style="background-color: orange;" class=" fa fa-bars  navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        
       </button>
       <div class="collapse navbar-collapse " id="navbarNav">
         <ul class="navbar-nav ml-auto">
@@ -37,8 +31,9 @@
           <button class="btn btn-danger navbar-btn">Log In</button>
         </ul>
       </div>
+      
     </nav>
-    <hr>
+    <div class="container"><hr></div></div>
     <!-- <div style="z-index: 10000;position: absolute; bottom :100px ; right:100px; color:white; border:white solid 2px;">
       WELL BEING</div> -->
   </div>
@@ -46,29 +41,47 @@
 
   <router-outlet></router-outlet>
 
+  <br>
+
+  
+    
 
   <div #home class="container">
+    <div class="row">
+      <div class=" maint col-lg-6 col-md-12 col-sm-12">
+        <h2>About Well Being</h2>
+        <br>
+        <P class="font ">
+          Just as we all have physical health;
+          we all have mental health too. Mental health refers to our psychological or emotional health and wellbeing.
+          It is about how we think, how we feel, how we behave, how life affects us and how we cope with it, how we engage
+          with others, and the choices we make. Mental wellbeing is an Integral part of our overall health.
+          Society often thinks of health as something biological and physical:the
+          condition of our body, how healthy we eat, the physical exercise we do.
+        </P>
+        <p class="font">
+          A key component of health Is missing from this, though. It's mental wellbeing,
+          which encompasses our Inner workings and the way we describe how we are In our lives,
+        </p>
+        </div>
+
+
+
+      <div class="col-lg-6 col-md-12 col-sm-12 "> 
     <br>
     <img src="assets/images/image2.png">
     <br>
+    </div>
 
-
-    <h2>About Well Being</h2>
-    <br>
-    <br>
-    <P class="font">
-      Just as we all have physical health;
-      we all have mental health too. Mental health refers to our psychological or emotional health and wellbeing.
-      It is about how we think, how we feel, how we behave, how life affects us and how we cope with it, how we engage
-      with others, and the choices we make. Mental wellbeing is an Integral part of our overall health.
-      Society often thinks of health as something biological and physical:the
-      condition of our body, how healthy we eat, the physical exercise we do.
-    </P>
-    <p class="font">
-      A key component of health Is missing from this, though. It's mental wellbeing,
-      which encompasses our Inner workings and the way we describe how we are In our lives,
-    </p>
+    
+    
   </div>
+</div>
+
+
+
+
+
 </div>
 <br>
 <br>
@@ -83,7 +96,7 @@
 
   
 
-
+<div class="clearfix"></div>
 <div class="container">
   <!-- computer image -->
 
